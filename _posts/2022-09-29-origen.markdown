@@ -1,0 +1,66 @@
+---
+layout: post
+title:  "Crear un sitio web estático con Jekyll"
+date:   2022-09-29 17:45:16 +0200
+categories: jekyll
+---
+
+En este post hablaremos de como crear un sitio web estático con **Jekyll**, un generador de sitios web estáticos.
+
+![Jekyll](https://jekyllrb.com/img/jekyll-og.png)
+
+## Ventajas y desventajas.
+En primer lugar, este tipo de sitios no requieren un hosting con soporte, ya que está compuesto de archivos HTML, CSS, y JavaScript.
+
+Otras ventajas que nos encontramos es su velocodad de carga y el ahorro de costos del hosting, ya que existen servicios gratuitos para ello.
+
+En cuanto a desventajas, nos encontramos que no podemos editar o crear en línea, e incluso no es posible la creación de usuarios.
+
+
+## Preparando el escenario
+Para ello, vamos a realizar la instalación tanto de **Jekyll** y de **Ruby** de la siguiente manera:
+~~~
+$ apt install jekyll
+$ apt install jekyll bundler
+$ apt install ruby
+~~~
+
+Creamos el directorio, en el que vamos a alojar nuestra web estática 
+~~~
+$ mkdir /directorio/web
+~~~
+
+Y ejecutamos dentro del directorio web el comando necesario para crear nuestro sitio web estático:
+~~~
+$ jekyll new sitio-jekyll
+~~~
+
+Al ejecutar el comando, se nos creará el directorio `sitio-jekyll` con la siguiente estructura:
+
+~~~
+sitio-jekyll/
+  _posts/
+    2022-09-29-welcome-to-jekyll.markdown
+  _config.yml
+  about.md
+  Gemfile
+  index.md
+~~~
+
+## ¿Para qué sirve lo que hemos creado?
+- `_posts/`: En este directorio se almacenarán los artículos por orden cronológico de nuestro sitio web.
+- `_config.yml`: En dicho fichero encontraremos las configuraciones que controlarán la forma en la que se generará la web y los artículos.
+- `Gemfile`: Este fichero aloja las definiciones de las dependencias o librerías adicionales de **Ruby** que necesitaremos para crear el sitio web (lo que sería el `requirements.txt`de **Python**).
+- `.md`: Los ficheros que componen el contenido de las páginas y los artículos tienen la extensión `markdown`, y luego es **Jekyll** es que se encargade transformar el código **HTML** a la hora de la compilación.
+
+## Ejecutando el sitio
+Para esto, ejecutaremos en la terminal lo siguiente:
+~~~
+$ cd /directorio/web/sitio-jekyll
+$ bundle exec jekyll serve
+~~~
+
+Tras esto, podremos ver el sitio generado en nuestro navegador, de forma local a la dirección _http://localhost:4000/_
+
+## Conclusión
+A partir de ciertas herramientas, podemos desplegar una página web de forma estática, con estilo, **CSS**, etc... de forma rápida, sin costes y de forma eficaz.

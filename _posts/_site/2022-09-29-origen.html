@@ -1,0 +1,53 @@
+<p>En este post hablaremos de como crear un sitio web estático con <strong>Jekyll</strong>, un generador de sitios web estáticos.</p>
+
+<h2 id="ventajas-y-desventajas">Ventajas y desventajas.</h2>
+<p>En primer lugar, este tipo de sitios no requieren un hosting con soporte, ya que está compuesto de archivos <em>HTML</em>, <em>CSS</em>, y <em>JavaScript</em>.</p>
+
+<p>Otras ventajas que nos encontramos es su velocodad de carga y el ahorro de costos del hosting, ya que existen servicios gratuitos para ello.</p>
+
+<p>En cuanto a desventajas, nos encontramos que no podemos editar o crear en línea, e incluso no es posible la creación de usuarios.</p>
+
+<h2 id="preparando-el-escenario">Preparando el escenario</h2>
+<p>Para ello, vamos a realizar la instalación tanto de <strong>Jekyll</strong> y de <strong>Ruby</strong> de la siguiente manera:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ apt install jekyll
+$ apt install jekyll bundler
+$ apt install ruby
+</code></pre></div></div>
+
+<p>Creamos el directorio, en el que vamos a alojar nuestra web estática</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ mkdir /directorio/web
+</code></pre></div></div>
+
+<p>Y ejecutamos dentro del directorio web el comando necesario para crear nuestro sitio web estático:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll new sitio-jekyll
+</code></pre></div></div>
+
+<p>Al ejecutar el comando, se nos creará el directorio <code class="language-plaintext highlighter-rouge">sitio-jekyll</code> con la siguiente estructura:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sitio-jekyll/
+  _posts/
+    2022-09-29-welcome-to-jekyll.markdown
+  _config.yml
+  about.md
+  Gemfile
+  index.md
+</code></pre></div></div>
+
+<h2 id="para-qué-sirve-lo-que-hemos-creado">¿Para qué sirve lo que hemos creado?</h2>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">_posts/</code>: En este directorio se almacenarán los artículos por orden cronológico de nuestro sitio web.</li>
+  <li><code class="language-plaintext highlighter-rouge">_config.yml</code>: En dicho fichero encontraremos las configuraciones que controlarán la forma en la que se generará la web y los artículos.</li>
+  <li><code class="language-plaintext highlighter-rouge">Gemfile</code>: Este fichero aloja las definiciones de las dependencias o librerías adicionales de <strong>Ruby</strong> que necesitaremos para crear el sitio web (lo que sería el <code class="language-plaintext highlighter-rouge">requirements.txt</code>de <strong>Python</strong>).</li>
+  <li><code class="language-plaintext highlighter-rouge">.md</code>: Los ficheros que componen el contenido de las páginas y los artículos tienen la extensión <code class="language-plaintext highlighter-rouge">markdown</code>, y luego es <strong>Jekyll</strong> es que se encargade transformar el código <strong>HTML</strong> a la hora de la compilación.</li>
+</ul>
+
+<h2 id="ejecutando-el-sitio">Ejecutando el sitio</h2>
+<p>Para esto, ejecutaremos en la terminal lo siguiente:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd /directorio/web/sitio-jekyll
+$ bundle exec jekyll serve
+</code></pre></div></div>
+
+<p>Tras esto, podremos ver el sitio generado en nuestro navegador, de forma local a la dirección <em>http://localhost:4000/</em></p>
+
+<h2 id="conclusión">Conclusión</h2>
+<p>A partir de ciertas herramientas, podemos desplegar una página web de forma estática, con estilo, <strong>CSS</strong>, etc… de forma rápida, sin costes y de forma eficaz.</p>
