@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Conectándonos al mundo"
+date:   2022-10-06 20:39:42 +0200
+categories: redes
+---
+
+## Trabajo de investigación y comparativa de las conexiones a internet ofrecidas al público del país de Senegal.
+
+![Senegal](https://blog.mariatec.es/wp-content/uploads/2022/08/imagen_2022-08-26_113938024.png)
+Se trata de un estado soberano de África Occidental, con una superficie total de 196.710 km2, siendo su gobierno una república semipresidencialista y que cuenta con catorce regiones, con más de 13 millones de habitantes, el 42% de ellos residentes en zonas rurales. Su idioma oficial es el francés, y su moneda oficial es el Franco CFA de África Occidental.
+
+## OPERADORES DE ACCESO DOMÉSTICO EN SENEGAL
+
+![Tabla](https://blog.mariatec.es/wp-content/uploads/2022/08/image-205-1024x311.png)
+
+Debido a la no competencia de empresas de comunicaciones en Senegal, hay muy poca oferta y proveedores de telecomunicaciones. Uno de los afectados debido a ello son los cibercafés, dado que, desde finales de 2008, están en plena decadencia. Se vio un poco de luz cuando la empresa Sonatel comenzó el desarrollo e infraestructuración de banda ancha, pero de alto costo en sus inicios, y bajando sus precios de forma desorbitada y rápida. Esto permitió que muchísima población, desde estudiantes a vendedores ambulantes, pudiesen navegar desde sus propias casas.
+
+Sonatel es una empresa del estado, debido a que conserva un alto porcentaje de las acciones de la misma, por lo que dificulta la expansión de nuevos proveedores debido a que este monopolio hace que las empresas que quieran entrar en el mercado de Senegal deban pasar por el ente, por lo
+que se crea una falsa competencia, que perjudica a un público que sigue esperando precios asequibles en lo referente a servicios de internet y telefonía fija, sobre todo en las zonas rurales, que como comenté al inicio, se trata del 42% de la población total del país.
+
+Expresso rompió con este monopolio, pero solo en el ámbito de las comunicaciones móviles con el pretexto de ser el servicio más demandado por el público, por lo que no ha sido un “duro
+competidor” para Sonatel, único operador vigente a cargo de la demanda de telefonía fija, internet y comunicaciones internacionales. La población creyó que el monopolio llegaría a su fin, pero los pequeños proveedores no pueden ofrecer tarifas competitivas y deben aceptar las condiciones impuestas por Sonatel.
+
+Y para más agravante, con la llegada de la crisis financiera mundial, muchas empresas que contrataban servicios TIC, han cancelado sus contratos, por lo que muchos proveedores se han visto obligados a cerrar al no alcanzar a cubrir los costos.
+
+## COMPARATIVA CON ESPAÑA
+
+Actualmente existen en España, más de 20 compañías que ofrecen servicios de fibra, ADSL y tarifas de móviles dentro de todo el territorio español, sin contar con sus marcas low cost. Cada una de ellas ofrecen servicios tan variados como necesidades e infraestructuras según la demanda.
+
+Las tarifas varían periódicamente, sin contar con la gran variedad de tarifas que tiene cada una. Todo esto es debido a la demanda y oferta por parte de los usuarios y cada compañía debe equiparse de estrategias de competencia y de esta manera ganar terreno dentro del mercado de las telecomunicaciones.
+
+En España contamos con una variedad de cobertura muy amplia, dado que no en todo el panorama castellano disponen desde los mismos servicios. Nos encontramos con zonas rurales sin cobertura si quiera de fibra óptica o ADSL, en las que las compañías ofrecen líneas de internet satélite móvil.
+
+Existen 4 grandes grupos en nuestro país, como lo son:
+
+    Grupo Movistar.
+    Grupo Orange.
+    Grupo Vodafone
+    Grupo MásMóvil.
+
+Cada vez son más las compañías que emergen dada a la apertura del mercado libre, por lo que los usuarios pueden beneficiarse de ofertas más baratas por parte de las compañías más competitivas, e incluso una lucha por una contraoferta, para mantener una cartera de clientes a un bajo coste para estos mismos, ofreciendo terminales, descuentos durante un período acotado, promociones para nuevos clientes recomendados por ya clientes, etc.
+
+En nuestro país tenemos cobertura de fibra y móvil que, o bien usa su propia red o alquilan la red de otra compañía para su uso parcial o total y así poder ofrecer servicio en aquellas zonas donde no lo tengan de forma propia. En 2020 solo 5 operadores invirtieron para tener su red propia para no depender de otros operadores, como son Movistar, Orange, Vodafone, MásMóvil y Euskaltel (solo en el País Vasco).
+
+[Operadoras](https://blog.mariatec.es/wp-content/uploads/2022/08/imagen_2022-08-26_114959861-1024x678.png)
+
+Como podemos ver en esta tabla, la oferta de servicios es variada, ya que las compañías ofrecen servicio de televisión con diferentes paquetes adheridos según la demanda del cliente. Una de ellas, Alterna, nos demuestra que incluso las empresas energéticas quieren introducirse en el mercado de las telecomunicaciones, o a la inversa como sucede con Yoigo.
+
+Es tal la competencia entre compañías, que exactamente 3 semanas, la compañía rumana DIGI, está ofreciendo en ciudades como Madrid o Barcelona, fibra óptica de 10GB, por el precio de 30€ al mes, recientemente seguida del grupo French Telecom y de la mano de Orange, ofreciendo la misma velocidad en Madrid, Barcelona, Valencia, Zaragoza y Sevilla, por 10€ de sobre coste en sus tarifas de uso familiar y de empresa.
+
+En el siguiente cuadro, podemos ver las diferentes combinaciones de fibra con líneas móviles que ofrecen las 3 compañías más caras de España. Estas compañías, además de ofrecer estos servicios, dentro de estos paquetes, incluyen terminales gratis y servicios como televisión digital, Netflix, HBO, suscripciones a Amazon Prime, DAZN y un largo etcétera de complementos de entretenimiento que se adapta a las necesidades e intereses de los usuarios.
+
+[Operadores](https://blog.mariatec.es/wp-content/uploads/2022/08/image-206-1024x518.png)
+
+## CONCLUSIÓN
+
+Finalmente, la evidencia que presentamos con anterioridad demuestra, que a pesar de que la población haga una demanda a su gobierno y a las empresas proveedoras, Senegal no cuenta con una infraestructura para una modernización de las TIC, a lo igual que las proveedoras tiene un acceso limitado para entrar en el mercado libre, gobernado por Sonatel, que es quien impone las tarificaciones a las nuevas empresas que quieran entrar en el mercado de telecomunicaciones en dicho país, teniendo una tasa de dispositivos móviles de sólo 0.1 por persona respecto a la media Europea, siendo esta de 1.2.
+
+Sin embargo, en nuestro país podemos ver una amplia oferta tanto de tarifas como compañías, que se adaptan a las necesidades de los usuarios y compitiendo entre ellas para lograr tener mayor presencia a lo largo de todo el territorio español. Fibra, ADSL, internet satélite, móvil y una gran e infinita variedad que nos deja incluso confusos en la elección dada a sus continuos y prontos cambios de promociones y ofertas cada poco tiempo.
+
+Por las razones que hemos mencionado con anterioridad, Senegal se encuentra en un punto en el que veía la luz a una modernización de las telecomunicaciones, pero han sido mermadas debido a numerosos inconvenientes, siendo uno de ellos la crisis financiera mundial o la poca competencia entre proveedores.
+
+Una diferencia muy amplia, también nos la encontramos en ese 42% de la población senegalesa sin posibilidad de acceso a la red, y, sin embargo, en la España rural, se ofrecen redes satélites para que no exista esa aislación de comunicaciones, sea cual sea el punto geográfico en el que se encuentre la población.
